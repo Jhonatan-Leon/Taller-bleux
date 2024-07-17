@@ -17,6 +17,7 @@
     background-image: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .barra-nav{
@@ -36,18 +37,22 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 190px 0 0;
+    margin: 0 250px 0 0;
 }
 
 li{
     list-style: none;
-    color: aliceblue;
+    color: gray;
     margin: 0 30px 0 ;
     font-size: 25px;
 }
 
+.text-white{
+    color: aliceblue;
+}
+
 .button-nav{
-    width: 180px;
+    width: 150px;
     margin-left: 30px;
     font-size: 25px;
     padding: 10px;
@@ -86,13 +91,14 @@ li{
     padding: 10px 10px;
 }
 
-.download{
+.features:hover{
     width: 48%;
     height: 100%;
     padding: 10px;
     border-radius: 4px;
     font-size: 20px;
     color: #f564ae;
+    background: #f1f2f7;
 
 }
 
@@ -259,6 +265,23 @@ li{
 
 }
 
+.text-precio{
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.icon-check{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icon-x{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
 .group-text{
     margin: 10px 0 ;
     font-size: 20px;
@@ -274,6 +297,8 @@ li{
     height: 50px;
     margin: 10px 0;
     font-size: 20px;
+    background: #2e2550;
+    color: aliceblue;
 
 }
 
@@ -291,6 +316,52 @@ li{
     margin-left: 300px;
 }
 
+.text-pink{
+    color: #f41486;
+}
+
+.group-redes{
+    width: 300px;
+    height: auto;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .redes{
-    margin-right: 300px;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 1279px) {
+    
+    .logo{
+        margin-left: 80px;
+    }
+
+    ul{
+        margin-right: 50px;
+    }
+
+    li{
+        font-size: 25px;
+    }
+
+    .content{
+        margin-left: 100px;
+    }
+
+    .button-nav{
+        margin-left: 10px;
+    }
+
+    /* content */
+    .title{
+        font-size: 80px;
+    }
+
+    .text-content{
+        font-size: 27px;
+    }
 }
