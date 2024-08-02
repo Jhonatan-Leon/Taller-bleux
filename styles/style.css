@@ -677,7 +677,7 @@ li{
 
     li{
         width: 10px;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .button-nav{
@@ -693,7 +693,8 @@ li{
     }
 
     .content{
-       align-items: center;
+        width: 100%;
+        align-items: center;
         margin: 0;
         padding: 10px;
     }
@@ -738,8 +739,12 @@ li{
     }
 
     .title-2{
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 40px;
+    }
+
+    .sub-title{
+        font-size: 30px;
     }
 
     .paragraph{
@@ -749,15 +754,15 @@ li{
     /* content 3 */
 
     .content-3{
-        height: 280vh;
+        height: 290vh;
     }
 
     .title-3{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .text-content-3{
-        font-size: 18px;
+        font-size: 14px;
         padding: 15px;
     }
 
@@ -765,6 +770,7 @@ li{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 20px;
     }
 
     .group-pack{
