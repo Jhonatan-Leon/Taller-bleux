@@ -669,36 +669,41 @@ li{
     }
 
     ul{
-        width: auto;
-        padding: 5px 0 5px;
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        margin-right: 5px;
+        width: 10px;
     }
 
     li{
-        height: 30px;
-        margin: 0;
-        padding: 0 15px;
+        width: 10px;
+        font-size: 9px;
     }
 
     .button-nav{
-        margin-left: 10px;
+        font-size: 9px;
+        width: 60px;
+        height: 30px;
     }
 
     /* content */
 
     .banner{
-        height: 80vh;
+        height: 70vh;
     }
 
     .content{
+       align-items: center;
         margin: 0;
         padding: 10px;
     }
 
     .img-telefono{
-        margin-left: 50px;
-        width: 190px;
-        height: 350px;
+        display: none;
+    }
+
+    .Imagen-fondo{
+        display: none;
     }
 
     .title{
@@ -744,7 +749,7 @@ li{
     /* content 3 */
 
     .content-3{
-        height: 210vh;
+        height: 280vh;
     }
 
     .title-3{
@@ -763,9 +768,9 @@ li{
     }
 
     .group-pack{
-        height: 650px;
-        width: 200px;
-        margin-top: 20px;
+        height: 550px;
+        width: 300px;
+        margin-top: 40px;
     }
 
     .precio{
@@ -811,13 +816,12 @@ li{
     }
     
     li{
-        width: 20px;
-        padding: 0 20px;
+        width: 10px;
         font-size: 9px;
     }
 
     .button-nav{
-        font-size: 10px;
+        font-size: 9px;
         width: 60px;
         height: 30px;
     }
