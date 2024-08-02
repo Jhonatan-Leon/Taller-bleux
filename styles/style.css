@@ -743,12 +743,25 @@ li{
         margin-top: 40px;
     }
 
+    .text-content-2{
+        font-size: 15px;
+    }
+
     .sub-title{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .paragraph{
+        padding: 5px;
         margin: 0 ;
+    }
+
+    .sub-title-2{
+        font-size: 25px;
+    }
+
+    .text-icon{
+        font-size: 15px;
     }
 
     /* content 3 */
