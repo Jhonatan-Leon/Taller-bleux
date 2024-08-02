@@ -711,6 +711,10 @@ li{
         font-size: 40px;
     }
 
+    .text-content{
+        font-size: 15px;
+    }
+
     .buttons{
         width: 200px;
         display: flex;
